@@ -4,7 +4,7 @@ google-generativeai
 python-dotenv
 gunicorn
 langchain-google-genai
-langachain
+langchain
 langchain_core.chat_history
 langchain_core.runnables.history
 dotenv
