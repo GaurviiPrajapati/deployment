@@ -5,7 +5,7 @@ import os
 from datetime import datetime
 from typing import Dict, Optional, List
 import uuid
-from .conversation import Conversation, UserSession, Message
+from conversation import Conversation, UserSession, Message
 
 
 class SessionManager:

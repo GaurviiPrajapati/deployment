@@ -3,3 +3,10 @@ uvicorn
 google-generativeai
 python-dotenv
 gunicorn
+langchain-google-genai
+langachain
+langchain_core.chat_history
+langchain_core.runnables.history
+dotenv
+langchain_core.tools
+tavily
