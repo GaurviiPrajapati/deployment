@@ -6,10 +6,10 @@ import logging
 
 load_dotenv(find_dotenv())
 
-from .sme_engine import SMEEngine
-from .agent import AgentFactory
-from .session_manager import session_manager
-from .conversation import Conversation
+from sme_engine import SMEEngine
+from agent import AgentFactory
+from session_manager import session_manager
+from conversation import Conversation
 
 logging.basicConfig(
     filename="bot.log",
