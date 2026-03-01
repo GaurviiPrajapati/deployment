@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!token) return;
 
         try {
-            const res = await fetch(`${API_BASE_URL}/chat-sessions`, {
+            const res = await fetch(`${API_BASE_URL}/api/conversations`, {
                 headers: { 'Authorization': `Bearer ${token}` }
             });
             if (res.status === 403) {
@@ -195,7 +195,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!token) return;
 
         try {
-            const res = await fetch(`${API_BASE_URL}/chats/${currentChatId}`, {
+            const res = await fetch(`${API_BASE_URL}/api/conversations/${currentChatId}`, {
                 headers: { 'Authorization': `Bearer ${token}` }
             });
 
@@ -233,7 +233,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!token) return;
 
         try {
-            await fetch(`${API_BASE_URL}/chats`, {
+            await fetch(`${API_BASE_URL}/api/chat`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
