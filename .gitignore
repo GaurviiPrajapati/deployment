@@ -1,0 +1,19 @@
+# Generated ignore rules for project
+
+# virtual environments
+sme_env/
+.venv/
+
+# Node modules
+backend_server/node_modules/
+
+# Environment variable files
+.env
+
+# logs
+AI_Backend/bot.log
+
+# others
+*.pyc
+__pycache__/
+
