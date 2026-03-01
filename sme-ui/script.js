@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const chatMessages = document.getElementById('chat-messages');
     const chatAnchor = document.getElementById('chat-anchor');
     // API Endpoints (updated to match Python backend port)
-    const API_BASE_URL = 'https://deployment-wr9t.onrender.com/api';
+    const API_BASE_URL = 'https://deployment-wr9t.onrender.com';
 
     // Figure out the current Chat ID
     let currentChatId = null;
